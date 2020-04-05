@@ -9,6 +9,14 @@ Suppose your web application requires users to submit a thumbnail (which will pr
 
 ## Quick Start
 
+1] First step is to build the custom `web` image on your local using docker-compose
+
+```
+$ docker-compose build
+```
+
+2] Run the built image
+
 ```
 $ docker-compose up -d --build
 ```
